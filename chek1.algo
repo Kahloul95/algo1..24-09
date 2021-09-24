@@ -1,0 +1,22 @@
+ALGORITHM sami
+VAR
+    i,v,w,c : INTEGER;
+    ch : STRING := "samsoum go gomy code"
+BEGIN
+    i := 0;
+    v :=0;
+    w :=1;
+    c :=1;
+     WHILE (ch[i]<> ".") DO
+         IF (ch[i]=["a","e","i","u","y","o"]) THEN
+         v:= v+1;
+         END IF
+         IF (ch[I]="") THEN
+         w := W+1;
+         END IF
+         c := c+1;
+     END_WHILE
+ write ("length of the sami", c);
+ write  ("number of words the sami", w);  
+ write ("number of vowels the sami", v);
+END
